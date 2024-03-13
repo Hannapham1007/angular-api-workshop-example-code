@@ -7,5 +7,5 @@ import { Person } from '../models/person';
   styleUrl: './person-item.component.css'
 })
 export class PersonItemComponent {
-  @Input('person') person: Person | null = null;
+  @Input ('person') person: Person | null = null;
 }

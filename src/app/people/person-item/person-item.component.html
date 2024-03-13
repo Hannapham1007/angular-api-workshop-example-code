@@ -1,4 +1,5 @@
 <ng-template [ngIf]="person">
-    <h2>{{ person.name }}</h2>
+    <h2 >{{ person.name }}</h2>
     <p>{{person.url}}</p>
+    <a routerLink="person/{{person.uid}}">View</a>
 </ng-template>
